@@ -219,12 +219,12 @@ test-app:
 
 ---
 
-# 🚀 GitHub Actions Workflow to Publish Docker Images
+# 🚀 GitHub Actions Workflow to Publish Docker Base Image
 
 `.github/workflows/docker-publish.yml`
 
 ```yaml
-name: Publish Docker Image
+name: base-image
 
 on:
   push:
